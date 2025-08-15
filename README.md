@@ -30,6 +30,7 @@ For those who just want to get going:
 
 This guide will walk you through setting up the system on a fresh Windows 11 machine. Follow these steps precisely to prevent system failure.
 
+
 ### Phase 0: Get the Project Files 📂
 
 Before you can begin, you need the project files on your computer.
