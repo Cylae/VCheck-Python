@@ -1,10 +1,10 @@
-# Project: The Swan
+# 🦢 Project: The Swan
 
 *"We're gonna have to enter the numbers again. And again. And again."*
 
 ---
 
-## Orientation: Welcome to Station 3
+## 🧭 Orientation: Welcome to Station 3
 
 Welcome, new recruit. You've been assigned to **Station 3: The Swan**. Your primary directive is to maintain and operate this system. The system's purpose is to scan for and neutralize temporal anomalies (in this case, corrupted video files) before another "incident" occurs.
 
@@ -14,11 +14,23 @@ Remember to push the button.
 
 ---
 
-## Getting Started on Windows 11
+## 🤓 Technical Summary for Experts
+
+For those who just want to get going:
+
+*   **Language:** Python 3.6+
+*   **Core Dependency:** FFmpeg (must be in system PATH)
+*   **Python Libraries:** `rich`, `send2trash`, `psutil`. The script will offer to auto-install these via `pip` on first run.
+*   **Execution:** `python VChecker.py`
+*   **Functionality:** Interactively scans a directory for corrupt video files using FFmpeg, then allows the user to select and move them to the recycle bin.
+
+---
+
+## 🚀 Getting Started on Windows 11 (for Novices)
 
 This guide will walk you through setting up the system on a fresh Windows 11 machine. Follow these steps precisely to prevent system failure.
 
-### Phase 1: Install Python
+### Phase 1: Install Python 🐍
 
 The system requires Python to function.
 
@@ -28,7 +40,7 @@ The system requires Python to function.
 4.  Proceed with the default installation settings.
 5.  To verify, open a new Command Prompt or PowerShell window and type `python --version`. If it shows a version number, you are ready for the next phase.
 
-### Phase 2: Install FFmpeg
+### Phase 2: Install FFmpeg 🎬
 
 FFmpeg is the core analysis engine. It must be accessible to the system.
 
@@ -46,7 +58,7 @@ FFmpeg is the core analysis engine. It must be accessible to the system.
     *   Click OK on all windows to save the changes.
 7.  To verify, open a new Command Prompt and type `ffmpeg -version`. If it shows details about the FFmpeg build, the installation was successful.
 
-### Phase 3: Running The Swan Protocol
+### Phase 3: Running The Swan Protocol ▶️
 
 Now you are ready to initialize the system.
 
