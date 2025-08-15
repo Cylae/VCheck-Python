@@ -30,6 +30,18 @@ For those who just want to get going:
 
 This guide will walk you through setting up the system on a fresh Windows 11 machine. Follow these steps precisely to prevent system failure.
 
+
+### Phase 0: Get the Project Files 📂
+
+Before you can begin, you need the project files on your computer.
+
+1.  On the main page of this repository, find the green button labeled **`< > Code`**.
+2.  Click this button. A dropdown menu will appear.
+3.  Select **"Download ZIP"**.
+4.  Save the ZIP file, then **unzip it** to a location you'll remember (like your Desktop or Downloads folder). This creates your project folder.
+
+*(For advanced users: you can also `git clone` the repository URL found in the same "< > Code" menu.)*
+
 ### Phase 1: Install Python 🐍
 
 The system requires Python to function.
@@ -62,13 +74,12 @@ FFmpeg is the core analysis engine. It must be accessible to the system.
 
 Now you are ready to initialize the system.
 
-1.  Download the `VChecker.py` script to a folder of your choice (e.g., `C:\TheSwan`).
-2.  Open a Command Prompt or PowerShell window.
-3.  Navigate to the folder where you saved the script using the `cd` command. For example: `cd C:\TheSwan`.
-4.  Run the script using the command: `python VChecker.py`
-5.  **First-Time Initialization:** The script will detect missing components (`rich`, `send2trash`, `psutil`) and ask for permission to install them. Type `y` and press Enter. The script will install them and then close. This is normal.
-6.  **Re-engage the System:** Run the script again: `python VChecker.py`.
-7.  The interactive menu will now appear. You are now in control. Follow the on-screen prompts.
+1.  Open a Command Prompt or PowerShell window.
+2.  Navigate to the project folder you created in Phase 0 using the `cd` command (e.g., `cd Desktop\TheSwan-main`).
+3.  Run the script using the command: `python VChecker.py`
+4.  **First-Time Initialization:** The script will detect missing components (`rich`, `send2trash`, `psutil`) and ask for permission to install them. Type `y` and press Enter. The script will install them and then close. This is normal.
+5.  **Re-engage the System:** Run the script again: `python VChecker.py`.
+6.  The interactive menu will now appear. You are now in control. Follow the on-screen prompts.
 
 ---
 
